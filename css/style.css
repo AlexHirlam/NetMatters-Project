@@ -32,12 +32,72 @@ body {
   color: white;
 }
 
+.content {
+padding-top: 230px; padding-bottom: 230px;
+}
+
+.slides h1 {
+  text-transform: uppercase;
+  font-size: 3rem!important;
+  margin: 0 0 25px;
+}
+
+.slides p {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  margin-bottom:35px!important;
+}
+
+.slick-dots {
+  bottom: 40px;
+  text-align: center;
+}
+
+.slides .btn-carr {
+  height: auto;
+  line-height: 50px!important;
+  padding: 5px 20px;
+  font-size: 1.25rem!important;
+}
+
+.slides .btn-digital:hover {
+  background-color: #15B358;
+}
+.slides .btn-web:hover {
+  background-color: #5F3C7E;
+}
+.slides .btn-it:hover {
+  background-color: #0E50A4;
+}
+.slides .btn-telecoms:hover {
+  background-color: #A3120E;
+}
+.slides .btn-bespoke:hover {
+  background-color: #344D6C;
+}
+.slides .btn-digital:hover {
+  background-color: #15B358;
+}
+.slides .btn-cyber:hover {
+  background-color: #c30026;
+}
+
+.slides .btn-carr .arrow-right-white {
+  float: right;
+  margin-top: 15px;
+  margin-left: 12px;
+  width: 22px;
+  height: 20px;
+}
 
 
 header {
   background-color: #fff;
   box-shadow: 0 3px 35px rgba(0,0,0,0.1);
+  transition: top 0.2s ease-in-out;
 }
+
+
 
 .container {max-width: 1200px!important;
   margin-right: auto;

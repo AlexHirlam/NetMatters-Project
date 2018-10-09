@@ -21,7 +21,7 @@
   </head>
 
   <body class="home-page">
-      <header>
+      <header class="sticky">
         <div class="inner">
         <div class="container header-container  ">
           <div class="row logo-row">
@@ -62,13 +62,13 @@
           </div>
         </div>
 </div>
-</header>
+
 
 
 <!-- NAV Menu -->
 
 <div class="main-nav hidden-xs hidden-sm">
-        <div class="container  ">
+        <div class="container ">
               <ul class="hover">
                 <li data-key="web" class="web">
                 <a href="https://www.netmatters.co.uk/web-design">
@@ -186,7 +186,7 @@
           </div>
         </div>
       </div>
-
+</header>
 
 
 
@@ -195,20 +195,85 @@
 
 <div id="banner">
   <div class="slides">
-    <div style="background-image: url(/img/carr_images/home-5YsL.jpg)">
-      <h1> Digital Marketing </h1>
-      <p> Reach Your Ideal Audience By <br>
-        Taking Your Marketing To New Heights
-      </p>
-
-
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-5YsL.jpg) no-repeat center;">
+      <div class="container">
+        <div>
+          <h1> Digital Marketing </h1>
+          <p> Reach Your Ideal Audience By <br>
+            Taking Your Marketing To New Heights
+          </p>
+          <button type="button" class="btn btn-digital btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
     </div>
-    <div> Slide 2 </div>
-    <div> Slide 3 </div>
-    <div> Slide 4 </div>
-    <div> Slide 5 </div>
-    <div> Slide 6 </div>
-    <div> Slide 7 </div>
+
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-IQa3.jpg);">
+      <div class="container">
+        <div>
+          <h1> Web Design </h1>
+          <p> For businesses looking to make a strong <br>
+            and effective first impression.
+          </p>
+          <button type="button" class="btn btn-web btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-br8G.jpg);">
+      <div class="container">
+        <div>
+          <h1> IT Support </h1>
+          <p> Taking care of all your <br>
+            business' IT needs.
+          </p>
+          <button type="button" class="btn btn-it btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-1MMT.jpg);">
+      <div class="container">
+        <div>
+          <h1> Telecoms Services </h1>
+          <p> A new approach to connectivity, see how  <br>
+            we can help your business.
+          </p>
+          <button type="button" class="btn btn-telecoms btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-gnLG.jpg);">
+      <div class="container">
+        <div>
+          <h1> Bespoke Software </h1>
+          <p> Bring your business together <br>
+            with solutions that grow with you.
+          </p>
+          <button type="button" class="btn btn-bespoke btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-HPxf.jpg);">
+      <div class="container">
+        <div>
+          <h1> Digital Marketing </h1>
+          <p> Generating new business through <br>
+            number-driven marketing activities.
+          </p>
+          <button type="button" class="btn btn-digital btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="background: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url(/img/carr_images/home-zdf9.jpg);">
+      <div class="container">
+        <div>
+          <h1> Cyber Security </h1>
+          <p> Keeping your and your customers <br>
+            sensitive information protected.
+          </p>
+          <button type="button" class="btn btn-cyber btn-carr">FIND OUT MORE<img class="arrow-right-white" src="../img/icons/icons8-arrow-right-white.png"></button>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
 </div>
 
@@ -638,11 +703,17 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="sticky.js"></script>
 
 <script>
 $(document).ready(function(){
   $('.slides').slick({
-    dots: true
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnFocus: true
+
+
   });
 });
 </script>
