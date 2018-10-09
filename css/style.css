@@ -25,6 +25,15 @@ body {
 }
 
 
+/* Image Carr */
+
+.slides {
+  background-color: grey;
+  color: white;
+}
+
+
+
 header {
   background-color: #fff;
   box-shadow: 0 3px 35px rgba(0,0,0,0.1);
