@@ -110,8 +110,8 @@ header {
   position: fixed;
   transform: translateY(0px);
   transition: 0.5s ease-in-out;
-
 }
+
 
 .nav-up {
   display: block;
@@ -120,7 +120,12 @@ header {
 
 }
 
-
+.sidebar {
+  transform: translateX(277px);
+  float:right;
+  position: absolute;
+  left: 1630px;
+}
 
 
 .container {max-width: 1200px!important;

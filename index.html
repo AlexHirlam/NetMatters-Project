@@ -9,9 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Own CSS -->
 
-    <!-- /Own CSS -->
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
@@ -51,12 +49,13 @@
                                         <img class="mobile" src="../img/icons/icons8-phone.png">
                                       </a>
                                       </div>
-                                    <button type"button" class="btn btn-menu">
+                                    <button type"button" class="btn btn-menu id="showSideBar"">
                                       <span class="menu-box">
                                         <img class="menu-lines" src="../img/burger-menu.png">
                                       <span class="title">Menu</span>
                                     </span>
                                     </button>
+
                         </div>
                       </div>
           </div>
@@ -188,8 +187,49 @@
       </div>
 </header>
 
+<!-- Side Menu -->
 
-
+<div class="sidebar" style="">
+  <div class="mobile-sidebar">
+  </div>
+      <ul>
+          <li><a href="#">Training</a></li>
+            <ul class role="menu">
+              <li><a href="#">Web Developer Training</a></li>
+            </ul>
+          <li><a href="#">Our Company</a></li>
+            <ul class role="menu">
+              <li><a href="#">Our Culture</a></li>
+              <li><a href="#">Our Office Tour</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Careers</a></li>
+              <li><a href="#">Our Benefits</a></li>
+            </ul>
+          <li><a href="#">Our Work</a></li>
+            <ul class role="menu">
+              <li><a href="#">Case Studies</a></li>
+            </ul>
+            <ul class role="menu">
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          <li><a href="#">Our Knowledge</a></li>
+            <ul class role="menu">
+              <li><a href="#">Guides</a></li>
+            </ul>
+            <ul class role="menu">
+              <li><a href="#">News</a></li>
+            </ul>
+            <ul class role="menu">
+              <li><a href="#">Insights</a></li>
+            </ul>
+            <ul class role="menu">
+              <li><a href="#">Tools</a></li>
+            </ul>
+            <ul class role="menu">
+              <li><a href="#">Events</a></li>
+            </ul>
+      </ul>
+</div>
 
 <!-- Image Carr -->
 
@@ -700,10 +740,13 @@
 </div>
 
 
+
+
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="sticky.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -713,10 +756,10 @@ $(document).ready(function(){
     autoplaySpeed: 3000,
     pauseOnFocus: true
 
-
   });
 });
 </script>
+
 
   </body>
 
