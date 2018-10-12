@@ -51,7 +51,13 @@ body {
   flex: auto;
 }
 
+.home-page {
+  overflow-y: visible;
+}
 
+.home-page.menu-active {
+  overflow-y: hidden!important;
+}
 
 .cookieHide {
   display: none!important;
@@ -85,6 +91,8 @@ body {
   overflow: auto;
   width: 350px;
 }
+
+
 
 .menu-active #container .sidebar {
   transition: all .5s ease-in-out
@@ -1534,9 +1542,8 @@ header {
   display: block!important;
 }
 
-.menu-active #container .main {
-  right: 275px;
-}
+
+
 
 .sidebarOverlay {
   right: 275px!important;
