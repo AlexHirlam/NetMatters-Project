@@ -703,17 +703,124 @@
   <div class="sidebar">
     <!-- Side Menu -->
 
-
+<!--  class role="menu" -->
       <div class="sidebar" style="">
         <div class="mobile-sidebar">
+          <ul>
+            <!-- BEFORE ELEMENT -->
+            <li class="visible-xs visible-sm">
+                <a href="#">Contact Us </a>
+            </li>
+            <li class="web">
+                <a href="#">
+                  <div>
+                    <img class="mobile-nav-icon" src="/img/icons/icons8-source-code-purple.png">
+                  </div>
+                  <small>Web</small>
+                    Design
+                </a>
+              <ul class role="menu">
+                <li><a href="#">Stylish Websites</a></li>
+                <li><a href="#">Ecommerce Stores</a></li>
+                <li><a href="#">Branding</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+                <li><a href="#">Web Hosting</a></li>
+              </ul>
+            </li>
+            <li class="it">
+              <a href="#">
+                <div>
+                  <img class="mobile-nav-icon" src="/img/icons/icons8-screen-blue.png">
+                </div>
+                <small>IT</small>
+                  Support
+              </a>
+            <ul class role="menu">
+              <li><a href="#">Managed IT Support</a></li>
+              <li><a href="#">Software</a></li>
+              <li><a href="#">Hardware</a></li>
+              <li><a href="#">Email Hosting</a></li>
+              <li><a href="#">Antivirus</a></li>
+              <li><a href="#">Data Backup</a></li>
+            </ul>
+          </li>
+          <li class="telecoms">
+            <a href="#">
+              <div>
+                <img class="mobile-nav-icon" src="/img/icons/icons8-phone-red.png">
+              </div>              <small>Telecoms</small>
+                Services
+            </a>
+          <ul class role="menu">
+            <li><a href="#">Gigabit Voucher</a></li>
+            <li><a href="#">Hosted VOIP</a></li>
+            <li><a href="#">Onsite VOIP</a></li>
+            <li><a href="#">Business Broadband</a></li>
+            <li><a href="#">Leased Lines</a></li>
+            <li><a href="#">EOFTTC</a></li>
+            <li><a href="#">EFM</a></li>
+          </ul>
+        </li>
+        <li class="bespoke">
+          <a href="#">
+            <div>
+              <img class="mobile-nav-icon" src="/img/icons/icons8-pad-grey.png">
+            </div>            <small>Bespoke</small>
+              Software
+          </a>
+        <ul class role="menu">
+          <li><a href="#">Workflow Solutions</a></li>
+          <li><a href="#">Automation</a></li>
+          <li><a href="#">System Intergration</a></li>
+          <li><a href="#">Database Management</a></li>
+          <li><a href="#">Sharepoint</a></li>
+          <li><a href="#">ERP</a></li>
+        </ul>
+      </li>
+      <li class="digital">
+        <a href="#">
+          <div>
+            <img class="mobile-nav-icon" src="/img/icons/icons8-graph-green.png">
+          </div>          <small>Digital</small>
+            Marketing
+        </a>
+      <ul class role="menu">
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">PPC</a></li>
+        <li><a href="#">CRO</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Social</a></li>
+        <li><a href="#">Content</a></li>
+      </ul>
+    </li>
+    <li class="cyber">
+      <a href="#">
+        <div>
+          <img class="mobile-nav-icon shield-icon" src="/img/icons/icons8-shield-pink.png">
+        </div>        <small>Cyber</small>
+          Security
+      </a>
+    <ul class role="menu">
+      <li><a href="#">Security Audit</a></li>
+      <li><a href="#">Security Management</a></li>
+      <li><a href="#">Security Tests</a></li>
+      <li><a href="#">GDPR</a></li>
+    </ul>
+  </li>
+
+
+          </ul>
         </div>
             <ul>
                 <li><a href="#">Training</a></li>
-                  <ul class role="menu">
-                    <li><a class="inner-item" href="#">Web Developer Training</a></li>
+                  <ul>
+                    <li><a class="inner-item" href="#">Web Developer Training
+
+                    </a></li>
+
                   </ul>
                 <li><a href="#">Our Company</a></li>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Our Culture</a></li>
                     <li><a class="inner-item" href="#">Our Office Tour</a></li>
                     <li><a class="inner-item" href="#">Our Team</a></li>
@@ -721,26 +828,26 @@
                     <li><a class="inner-item" href="#">Our Benefits</a></li>
                   </ul>
                 <li><a href="#">Our Work</a></li>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Case Studies</a></li>
                   </ul>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Portfolio</a></li>
                   </ul>
                 <li><a href="#">Our Knowledge</a></li>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Guides</a></li>
                   </ul>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">News</a></li>
                   </ul>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Insights</a></li>
                   </ul>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Tools</a></li>
                   </ul>
-                  <ul class role="menu">
+                  <ul>
                     <li><a class="inner-item" href="#">Events</a></li>
                   </ul>
             </ul>
@@ -764,7 +871,8 @@ $(document).ready(function(){
     dots: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnFocus: true
+    pauseOnFocus: true,
+    mobileFirst: true
 
   });
 });
