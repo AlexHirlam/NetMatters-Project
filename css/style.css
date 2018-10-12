@@ -24,6 +24,39 @@ body {
 
 }
 
+
+#cookies {
+  display: inline-flex;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  bottom: 0px;
+  transition: top 1s;
+}
+
+#cookies p {
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 370px;
+}
+
+#cookies .read-more {
+  margin: 10px;
+  padding-top: 6px;
+}
+
+#cookies #accept {
+  margin: 10px;
+  padding-top: 6px;
+  flex: auto;
+  margin-left: 390px;
+}
+
+
+.cookieHide {
+  display: none!important;
+}
+
 #container {
   height: 100%;
   position: relative;
